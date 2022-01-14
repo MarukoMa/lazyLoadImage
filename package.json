@@ -1,0 +1,39 @@
+{
+  "name": "lazy-load-image-pre",
+  "version": "1.0.0",
+  "description": "lazy-load-image-pre",
+  "main": "lazyLoadImage.js",
+  "scripts": {
+    "dev": "webpack-dev-server --progress --colors --devtool source-map --hot --inline",
+    "build": "webpack --progress --colors"
+  },
+  "keywords": [
+    "lazyLoadImage",
+    "preLoadImage"
+  ],
+  "respository": "https://github.com/MarukoMa/lazyLoadImage",
+  "Homepage":"https://github.com/MarukoMa/lazyLoadImage/README.md",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-2": "^6.24.1",
+    "clean-webpack-plugin": "^0.1.19",
+    "css-loader": "^1.0.0",
+    "extract-text-webpack-plugin": "^4.0.0-beta.0",
+    "file-loader": "^1.1.11",
+    "path": "^0.12.7",
+    "style-loader": "^0.21.0",
+    "uglifyjs-webpack-plugin": "^1.2.7",
+    "url-loader": "^1.0.1",
+    "webpack": "^4.16.1",
+    "webpack-cli": "^3.0.8",
+    "webpack-dev-server": "^3.1.4"
+  },
+  "author": "MarukoMa",
+  "license": "ISC",
+  "dependencies": {
+   
+  }
+}

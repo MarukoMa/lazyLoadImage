@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8" />
+   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   <title>图片懒加载示例</title>
+   <link rel="shortcut icon" href="http://www.suning.com/favicon.ico" type="image/x-icon" />
+   <style>
+       html,body{
+           height: 100%;
+       }
+       h1{
+           display: block;
+           height: 500px;
+       }
+       img{
+           display: block;
+           width: 600px;
+           height: 200px;
+           margin: 30px;
+       }
+       /* ul{
+           width: 300px;
+           height: 500px;
+           overflow-y: scroll;
+       } */
+   </style>
+</head>
+<body>
+    <div class="container">
+        <h1>图片懒加载示例</h1>
+        <ul >
+            <li>
+                <img class="lazy-src" data-src ="../img/1.jpeg">
+                <img class="lazy-src" src="" data-src ="../img/2.jpeg">
+                <img class="lazy-src" src="" data-src ="../img/3.jpeg">
+                <img class="lazy-src" src="" data-src ="../img/4.jpeg">
+                <img class="lazy-src" src="" data-src ="../img/5.jpeg">
+                <img class="lazy-src" src="" data-src ="../img/6.jpeg">
+                <img class="lazy-src" src="" data-src ="../img/7.jpeg">
+                <img class="lazy-src" src="" data-src ="../img/8.jpeg">
+            </li>
+        </ul>
+        <p></p>
+    </div>
+    <script src="../lib/lazyLoadImage.js"></script>
+    <script>
+     
+    </script>
+    <script>
+        lazyLoadImage({
+            querySelect:'.lazy-src',
+            defaultImage:'/lib/lazy-img-loading.gif',
+            preLoadHeight:500
+        })
+    </script>
+</body>
+</html>
