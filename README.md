@@ -6,20 +6,20 @@
 `$ npm i lazy-load-image-pre`
 
 ## options
-* querySelect  
-     type:String
-     default:'.lazy-src'
-     设置懒加载图片属性  
+* querySelect
+    type:String 
+    default:'.lazy-src'    
+    设置懒加载图片属性  
     
-* defaultImage
-     type:String
-     default:'dist/lazy-img-loading.gif'
-     默认站位图片
+* defaultImage 
+    type:String 
+    default:'dist/lazy-img-loading.gif'
+    默认站位图片
 
-* preLoadHeight  
-     type:Number 
-     default:0
-     配置图片预加载功能,大于0则开启预加载功能
+* preLoadHeight 
+    type:Number   
+    default:0
+    配置图片预加载功能,大于0则开启预加载功能
     
 ## Usage
 ```javascript
