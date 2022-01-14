@@ -22,6 +22,16 @@
 * type: Number   
 * default: 0
 
+### delay  
+* 配置节流延迟执行毫秒数
+* type: Number   
+* default: 1000
+
+### type  
+* 配置节流功能 1 表时间戳版，2 表定时器版 默认走定时器
+* type: Number   
+* default: 2
+
 ## Usage
 ```javascript
    import { lazyLoadImage } from 'lazy-load-image-pre';
