@@ -8,15 +8,15 @@
 ## options
 * querySelect
     type:String 
-    default:'.lazy-src'    
+    default:'.lazy-src'
     设置懒加载图片属性  
     
-* defaultImage 
+* defaultImage. 
     type:String 
     default:'dist/lazy-img-loading.gif'
     默认站位图片
 
-* preLoadHeight 
+* preLoadHeight. 
     type:Number   
     default:0
     配置图片预加载功能,大于0则开启预加载功能
