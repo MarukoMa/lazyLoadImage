@@ -26,8 +26,7 @@
     import { lazyLoadImage } from 'lazy-load-image-pre';
    lazyLoadImage({
         querySelect:'.lazy-src',
-        basePath :'/lib',
-        defaultImage:'lazy-img-loading.gif',
+        defaultImage:'lib/lazy-img-loading.gif',
         preLoadHeight:500
     })
 
