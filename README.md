@@ -14,7 +14,7 @@
 * defaultImage
     type:String
     default:'dist/lazy-img-loading.gif'
-    默认站位图片
+    默认占位图片
 
 * preLoadHeight  
     type:Number 
