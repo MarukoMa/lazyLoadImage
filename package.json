@@ -1,6 +1,6 @@
 {
   "name": "lazy-load-image-pre",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "lazy-load-image-pre",
   "main": "lazyLoadImage.js",
   "scripts": {
